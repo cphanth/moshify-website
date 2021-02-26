@@ -402,9 +402,9 @@ a {
 }
 
 /* Media Objects */
-.media {
+/* .media {
   display: flex;
-}
+} */
 
 .media__title {
   margin-top: 0;
@@ -711,6 +711,10 @@ a {
 }
 
 /* Domain Block */
+
+.block-domain {
+  transform: ;
+}
 .block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   max-width: 670px;
@@ -745,4 +749,28 @@ a {
 }
 .plan:hover {
   transition: transform 0.2s ease-out;
+}
+
+/* Features Block */
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
 }
