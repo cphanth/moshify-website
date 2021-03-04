@@ -6,5 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.0.0-beta.1"
+  },
+  "options" : {
+    "outputPath" : "./dist"
   }
 }
