@@ -726,9 +726,6 @@ a {
 
 /* Domain Block */
 
-.block-domain {
-  /* transform: ; */
-}
 .block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   max-width: 670px;
